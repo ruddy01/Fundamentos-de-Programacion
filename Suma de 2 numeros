@@ -1,0 +1,27 @@
+//Autor : Ruddy Guzman 
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"    // getch   
+
+
+using namespace std;
+
+void  main()
+
+{
+
+	float a , b , Suma;
+	cout<< "Ibngrese el primer numero";    // pedir el primer numero
+	cin>>a;
+	cout << " Ingrese el segundo numero ";   // Pedir el segundo numero 
+	cin>>b;
+   
+	Suma = a+b ;    // proceso
+	// salida
+	
+	cout<<"la suma es: "<< Suma;
+		getch();
+
+	
+}
