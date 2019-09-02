@@ -1,0 +1,27 @@
+#include "stdafx.h"
+#include "iostream"
+#include "conio.h"
+
+using namespace std;
+void main()
+{
+	int p1,p2,p3,f1,pf,nf;
+
+	cout<<" ingrese la nota del 1er parcial"<<endl ;
+	cin>> p1;
+	cout<<" ingrese la nota del 2do parcial"<<endl ;
+	cin>> p2;
+	cout<<" Ingrerse la nota del 3er parcial"<<endl;
+	cin>>p3;
+	cout<<" ingrese la nota Final "<<endl;
+	cin>>f1;
+	cout<<"Ingrese la nota del proyecto final ";
+	cin>>pf;
+
+	
+	nf=(p1*(0.4/3)+p2*(0.4/3)+p3*(0.4/3)+f1*0.4+pf*0.2);
+	cout<<"la nota final es :"<<nf<<endl;
+
+	getch();
+	
+}
