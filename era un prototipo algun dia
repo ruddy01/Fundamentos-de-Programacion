@@ -1,0 +1,34 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "string"
+
+
+
+using namespace std;
+
+
+
+void main()
+
+{
+	int opcion;
+	do {
+		cout <<"----------------CULTURALIZATE------------------"<<endl;
+		cout<< "1.Cuantas culturas tiene El pais de Bolivia ?"<<endl;
+		cout<< "2. Cuantos lenguajes autoctonos existen en el Pais de Bolivia"<<endl;
+		cout<< "3. ?  "<<endl;
+		cin>> opcion;
+		switch (opcion) {
+			case 1:  cout<<" En Bolivia existen 36 diferentes naciones o pueblos indigenas<<endl;
+               cout<<"originarios y campesinos, reconocidos por la Constitución Política<<endl;
+               cout<<" del Estado. La vestimenta, costumbres, tradiciones, ritos, bailes,<<endl;
+               cout<<" ritmos, etc. varía de acuerdo a la zona geográfica del país. En cada<<endl;
+                cout<<"  región existen culturas vivas de diversos pueblos o naciones."<<endl;
+			        break;
+		    default: cout<<"Opcion invalida";
+	    }
+		system("cls");
+	}while (opcion!=0);
+	getch();
+}
