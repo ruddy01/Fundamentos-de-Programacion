@@ -1,0 +1,25 @@
+#include "stdafx.h"
+#include "iostream"	
+#include "conio.h"
+
+using namespace std;
+
+float Calculo_Area(float x);
+
+int main()
+{
+	float Radio;
+	cout<<" ingrese el Radio :";
+	cin>>Radio;
+	cout <<" el area es: " <<Calculo_Area(Radio)<<endl;
+	getch();
+
+}
+float Calculo_Area(float m)
+
+   { float Aux ; 
+
+   Aux = 3.141516*m*m;
+    return Aux;
+
+   }
